@@ -1,4 +1,4 @@
-# flutter_application_1
+# binge_beta_1
 
 A new Flutter project.
 

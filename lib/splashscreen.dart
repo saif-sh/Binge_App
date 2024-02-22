@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/loginpg.dart';
+import 'package:binge_beta_1/search.dart';
 
 class splashscreen extends StatefulWidget {
   @override
@@ -13,11 +13,11 @@ class _splashscreenState extends State<splashscreen> {
   void initState() {
     super.initState();
 
-    Timer(const Duration(seconds: 2), () {
+    Timer(const Duration(seconds: 1), () {
       Navigator.pushReplacement(
           context,
           MaterialPageRoute(
-            builder: (context) => loginpg(),
+            builder: (context) => search1(),
           ));
     });
   }
